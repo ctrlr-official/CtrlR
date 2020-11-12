@@ -1,0 +1,97 @@
+.Contact{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(34,135,255,1) 0%, rgba(117,180,255,1) 21%, rgba(215,237,255,1) 49%, rgba(221,241,255,1) 58%, rgba(72,164,203,1) 79%, rgba(4,148,207,1) 100%);
+}
+
+form {
+    position: absolute;;
+    font-size: 20px;
+    color: white;
+    transform: translateY(20%);
+    left: 25%;
+    width: 50%;
+    padding:20px;
+    background-color: rgba(73, 73, 82, 0.603);
+    border-radius: 30px;
+}
+::-webkit-input-placeholder{
+    color: #c5ecfd;
+}
+::-moz-input-placeholder{
+    color: #c5ecfd;
+}
+::-ms-input-placeholder{
+    color: #c5ecfd;
+}
+/* .norkochak{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+} */
+input{
+    width: 70%;
+    height:30px;
+    margin: 10px;
+    background:transparent;
+    border:1px solid #c5ecfd; 
+    border-radius:50px;
+    padding:10px;
+    color: #c5ecfd;
+}
+#submit{
+    width: 25%;
+    height: 40px;
+    transition: all 1s;
+}
+#reset{
+    width:25%;
+    height:40px;
+    margin-left: 5%;
+    transition: all 1s;
+}
+#submit:hover{
+    background-color: rgba(255, 255, 255, 0.493);
+}
+#reset:hover{
+    background-color:  rgba(255, 255, 255, 0.493);
+}
+/* .pageik h1{
+    color:white;
+}
+.pageik p{
+    color: white;
+    font-size: 25px;
+} */
+.newpageik{
+    width:100%;
+    color:white;
+    font-size: 30px;
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.formik img{
+    width: 100px;
+    margin-left: 20%;
+    border-radius: 50%;
+}
+@media  all and (max-width:800px){
+    form{
+        transform:translateY(5%);
+    }
+}
+@media  all and (max-width:500px){
+    form{
+        transform:translateY(1%);
+    }
+}
+@media  all and (max-height:650px){
+    form{
+        height: 60%;
+    }
+    input{
+        margin:3px;
+    }
+}
