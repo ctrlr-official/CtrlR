@@ -13,7 +13,7 @@ const About = () =>{
              <div className="newbtn">
                     <Link to="/"
                         className="norkochak">
-                        <img src={back}/>
+                        <img src={back} alt="backicon"/>
                         </Link>
                 </div>
             <div className="anun">
@@ -21,22 +21,22 @@ const About = () =>{
             </div>
             <div className="boxik">
                 <div className="firstgridbox gb">
-                    <img src={Ani}/>
+                    <img src={Ani} alt="memberone"/>
                     <p>Ani Arzumanyan</p>
                     <p>Developer</p>
                 </div>
                 <div className="secondgridbox gb">
-                    <img src={Alina}/>
+                    <img src={Alina} alt="membertwo"/>
                     <p>Alina Virabyan</p>
                     <p>Business analytic</p>
                 </div>
                 <div className="thirdgridbox gb">
-                    <img src={Mary}/>
+                    <img src={Mary} alt="memberthree"/>
                     <p>Mary Grigoryan</p>
                     <p>Developer </p>
                 </div>
                 <div className="fourthgridbox gb">
-                    <img src={Tamara}/>
+                    <img src={Tamara} alt="memberfour"/>
                     <p>Tamara Sargsyan</p>
                     <p>Designer</p>
                 </div>
