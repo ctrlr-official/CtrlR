@@ -23,7 +23,7 @@ const Warnings = () => {
              <div className="newbtn">
                     <Link to="/"
                         className="norkochak">
-                        <img src={back}/>
+                        <img src={back} alt="backic"/>
                         </Link>
                 </div>
             <div className="warningner">Here are some warnings that will help you</div>
