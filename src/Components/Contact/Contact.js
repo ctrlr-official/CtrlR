@@ -11,7 +11,7 @@ const Contact = () => {
             <div className="newbtn">
                     <Link to="/"
                         className="norkochak">
-                        <img src = {back}/>
+                        <img src = {back} alt="back"/>
                         </Link>
                 </div>
             <div className="newpageik">Send us message, if you want to get more information about cybercrime or you are a vicitim of cyberattacks :)</div>
@@ -25,7 +25,7 @@ const Contact = () => {
                 <input type="text" name="comment" size="50" placeholder="Comment" /><br/>
                 <input type="submit" value="Send" id="submit"/> 
                 <input type="reset" value="Reset" id="reset"/>
-                <img src={logo}/>
+                <img src={logo} alt="logo"/>
                 </form>
             </div>
             
