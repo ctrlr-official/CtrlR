@@ -58,10 +58,10 @@ const Auth = () => {
             </header>
             <div className="imgs">
             <div className="catik">
-                <img src={kitten}/>
+                <img src={kitten} alt="cat"/>
             </div>
             <div className="mainimg">
-                <img  src={comp}/>
+                <img  src={comp} alt="computer"/>
             </div>
             <div className="seventh">
                     <Link to="/cybercrime"
