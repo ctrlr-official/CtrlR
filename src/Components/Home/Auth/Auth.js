@@ -1,7 +1,5 @@
 import React from 'react';
 import './Auth.css';
-import cat2 from '../../../assets/Asset1.png';
-import cat1 from '../../../assets/Asset5.png';
 import kitten from '../../../assets/kitten.gif'
 import comp from '../../../assets/comp.png';
 import { Link } from 'react-router-dom';
