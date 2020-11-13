@@ -11,7 +11,7 @@ const CyberCrime = () => {
             <div className="newbtn">
                     <Link to="/"
                         className="norkochak">
-                        <img src={back}/>
+                        <img src={back} alt="backik"/>
                         </Link>
                 </div>
             <div className="firstvideo">
@@ -21,7 +21,7 @@ const CyberCrime = () => {
             <iframe width="560" height="315" src="https://www.youtube.com/embed/mn-Y33AU4aI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div className="secondcat">
-                <img src={cat} />
+                <img src={cat} alt="catik"/>
             </div>
         </div>
     )
