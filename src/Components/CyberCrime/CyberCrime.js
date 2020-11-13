@@ -15,10 +15,10 @@ const CyberCrime = () => {
                         </Link>
                 </div>
             <div className="firstvideo">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/EJAAMJTr2W4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EJAAMJTr2W4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="myframeone"></iframe>
             </div>
             <div className="secondvideo">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/mn-Y33AU4aI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mn-Y33AU4aI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="myframetwo"></iframe>
             </div>
             <div className="secondcat">
                 <img src={cat} alt="catik"/>
