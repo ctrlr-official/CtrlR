@@ -169,7 +169,7 @@ label{
 
     }
 }
-@media all and (max-width: 600px) and (min-width: 400px) and (max-height:2){
+@media all and (max-width: 600px) and (min-width: 400px) and (max-height:900px){
     .btn{
         left: 23vw;
         font-size: 20px;
