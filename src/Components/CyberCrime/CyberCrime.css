@@ -1,5 +1,5 @@
 .newbtn{
-    position:absolute;
+    position:static;
     left:5px;
     top:5px;
 }
