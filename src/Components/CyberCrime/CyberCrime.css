@@ -1,3 +1,8 @@
+.norkochak{
+    position:relative;
+    left:5px;
+    top:5px;
+}
 @keyframes change{
     0%{
         background-position: 0 50%;
