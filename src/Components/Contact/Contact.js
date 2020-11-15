@@ -14,7 +14,7 @@ const Contact = () => {
                         <img src = {back} alt="back"/>
                         </Link>
                 </div>
-            <div className="newpageik">Send us message, if you want to get more information about cybercrime or you are a vicitim of cyberattacks :)</div>
+            <div className="newpageik">Have some questions?<br/> Need a help?<br/> Contact Us</div>
             <div className="formik">
                 <form action="mailto:mary.grigoryan.2019@inbox.ru" method="post" enctype="text/plain">
                 <br/>
