@@ -7,14 +7,14 @@
 
 .paragraph{
 width:30%;
- font-size:40%;
- top:30%;
+ font-size:25px;
+ bottom:30%;
 }
 .p{
  color:white;
  }
  .histogram{
- width:30% !important;
- height:50%;
+ width: 150px !important;
+ height:20% !important;
  }
  
