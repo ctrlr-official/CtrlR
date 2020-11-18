@@ -13,7 +13,7 @@ import cyberedge from '../../assets/Mary.png'
       4.48% of malicious email attachments are office files.
       In addition, the rate of cyber attack in Armenia is growing. While hacking has become a huge thing in the world throughout the years, there are many countries where people face the most cybercrime.</p></div>
       <div className="histogram">
-      <img src={cyberedge}/>
+      <img src={cyberedge} alt="cyberedge"/>
       </div>
       </div>
   
