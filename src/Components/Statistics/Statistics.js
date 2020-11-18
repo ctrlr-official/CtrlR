@@ -1,5 +1,6 @@
 import React from 'react';
 import cyberedge from '../../assets/cyberedge.png'
+import back from '../../assets/back.png'
 import { Link } from 'react-router-dom';
 
 
