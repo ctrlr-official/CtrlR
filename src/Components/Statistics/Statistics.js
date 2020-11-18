@@ -13,6 +13,7 @@ import { Link } from 'react-router-dom';
                         <img src={back} alt="backic"/>
                         </Link>
                 </div>
+      <div className="newheader">The statistics of cybercrime in the world</div>
       <div className="paragraph"><p>Nowadays, cybercriminal activites are one of the dangerous issues, that can cause many other crimes. 
       According to these years, the rate of cybercrime increased a lot. Here are some facts about the impact and statistics of cybercrime
       1.In the 2019 DBIR, 94% of malware was delivered by emai
