@@ -6,13 +6,14 @@
 }
 
 .paragraph{
-width:40%;
+width:30%;
+ font-size:40%;
 }
 .p{
  color:white;
  }
  .histogram{
- width:30%;
+ width:30% !important;
  height:50%;
  }
  
