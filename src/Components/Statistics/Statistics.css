@@ -7,9 +7,11 @@
  flex-direction:row;
  
 }
- .paragraph{
- width:50%;
+.paragraph{
  position:absolute;
+width:50%;
+}
+ .paragraph p{
  color:white;
  }
  .histogram{
