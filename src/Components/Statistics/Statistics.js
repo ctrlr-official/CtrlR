@@ -1,5 +1,5 @@
 import React from 'react';
-import cyberedge from '../../assets/Mary.png'
+import cyberedge from '../../assets/cyberedge.png'
 
 
  const Statistics = () =>{
