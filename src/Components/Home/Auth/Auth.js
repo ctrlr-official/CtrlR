@@ -52,6 +52,12 @@ const Auth = () => {
                         Contact
                         </Link>
                 </div>
+                <div className="sevenththbtn">
+                    <Link to="/quiz"
+                        className="btn7 knopka">
+                        Contact
+                        </Link>
+                </div>
             </div>
             </header>
             <div className="imgs">
