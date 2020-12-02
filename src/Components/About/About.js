@@ -40,6 +40,11 @@ const About = () =>{
                     <p>Tamara Sargsyan</p>
                     <p>Designer</p>
                 </div>
+                <div className="fifthgridbox gb">
+                    <img src={Tamara} alt="memberfive"/>
+                    <p>Rustam Davtyan</p>
+                    <p>Manager</p>
+                </div>
             </div>
             <div className="teamname"><p>Ctrl+R</p></div>
         </div>
