@@ -169,11 +169,25 @@ label{
 
     }
 }
-@media all and (max-width: 600px) and (min-width: 400px) and (max-height:900px){
+@media all and (max-width: 600px) and (min-width: 400px) and (max-height:900px) and (min-height:600px){
     .btn{
-        left: 23vw;
+        left: 22vw;
         font-size: 20px;
-        bottom: 10vh;
+        bottom: 13vh;
+
+    }
+    .catik img{
+        width: 200px;
+    }
+    .mainimg img{
+        width: 300px;
+    }
+}
+@media all and (max-width: 600px) and (min-width: 400px) and (max-height:600px){
+    .btn{
+        left: 22vw;
+        font-size: 20px;
+        bottom: 8vh;
 
     }
     .catik img{
