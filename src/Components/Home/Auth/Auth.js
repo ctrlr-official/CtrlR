@@ -55,7 +55,7 @@ const Auth = () => {
                 <div className="sevenththbtn">
                     <Link to="/quiz"
                         className="btn7 knopka">
-                        Contact
+                        Quiz
                         </Link>
                 </div>
             </div>
@@ -68,7 +68,7 @@ const Auth = () => {
                 <img  src={comp} alt="computer"/>
             </div>
             <div className="seventh">
-                    <Link to="/cybercrime"
+                    <Link to="/quiz"
                         className="btn">
                         What Is CyberCrime?
                         </Link>
