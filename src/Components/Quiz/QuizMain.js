@@ -10,13 +10,13 @@ export default class Quiz extends Component {
         quiestions: {
             1: 'How does a computer virus work"?',
             2: 'What does the “https://” at the beginning of a URL denote, as opposed to "http://" (without the “s”)?',
-            3: 'Which of the following is an example of a “phishing” attack?'
-            4: 'Which of the following four passwords is the most secure?'
-            5: '“Private browsing” is a feature in many internet browsers that lets users access web pages without any information (like browsing history) being stored by the browser. Can internet service providers see the online activities of their subscribers when those subscribers are using private browsing?'
-            6: 'Turning off the GPS function of your smartphone prevents any tracking of your phone’s location.'
-            7: 'If a public Wi-Fi network (such as in an airport or café) requires a password to access, is it generally safe to use that network for sensitive activities such as online banking?'
-            8: 'What kind of cybersecurity risks can be minimized by using a Virtual Private Network (VPN)?'
-            9: 'Working at your desk, you've received an email from Microsoft explaining that your password it out of date, and you must set a new one.  The link within the email will guide you through it.  Your next step is?'
+            3: 'Which of the following is an example of a “phishing” attack?',
+            4: 'Which of the following four passwords is the most secure?',
+            5: '“Private browsing” is a feature in many internet browsers that lets users access web pages without any information (like browsing history) being stored by the browser. Can internet service providers see the online activities of their subscribers when those subscribers are using private browsing?',
+            6: 'Turning off the GPS function of your smartphone prevents any tracking of your phone’s location.',
+            7: 'If a public Wi-Fi network (such as in an airport or café) requires a password to access, is it generally safe to use that network for sensitive activities such as online banking?',
+            8: 'What kind of cybersecurity risks can be minimized by using a Virtual Private Network (VPN)?',
+            9: 'Working at your desk, you've received an email from Microsoft explaining that your password it out of date, and you must set a new one.  The link within the email will guide you through it.  Your next step is?',
             10: 'Your computer has just been infected with Ransomware and the hacker is demanding $1,000 before releasing it.  What do you do?'
         },
         answers: {
