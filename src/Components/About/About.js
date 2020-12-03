@@ -4,6 +4,7 @@ import Ani from '../../assets/Ani.png'
 import Alina from '../../assets/Alina.png'
 import Mary from '../../assets/Mary.png'
 import Tamara from '../../assets/Tamara.png'
+import Rustam from '../../assets/Rustam.png'
 import back from '../../assets/back.png'
 import { Link } from 'react-router-dom';
 
@@ -41,7 +42,7 @@ const About = () =>{
                     <p>Designer</p>
                 </div>
                 <div className="fifthgridbox gb">
-                    <img src={Tamara} alt="memberfive"/>
+                    <img src={Rustam} alt="memberfive"/>
                     <p>Rustam Davtyan</p>
                     <p>Manager</p>
                 </div>
