@@ -34,42 +34,42 @@ export default class Quiz extends Component {
                 1: 'Creating a fake website that looks nearly identical to a real website in order to trick users into entering their login information',
                 2: 'Sending someone a text message that contains a malicious link that is disguised to look like a notification that the person has won a contest',
                 3: 'Sending someone an email that contains a malicious link that is disguised to look like an email from someone the person knows.'
-            }
+            },
              4: {
                 1: 'WTh!5Z',
                 2: 'Boat123',
                 3: 'into*48'
-            }
+            },
              5: {
                 1: 'Yes',
                 2: 'No',
                 3: 'Not sure'
-            }
+            },
              6: {
                 1: 'True',
                 2: 'False',
                 3: 'Not sure'
-            }
+            },
              7: {
                 1: 'Yes, it is safe',
                 2: 'No, it is not safe',
                 3: 'Not sure'
-            }
+            },
              8: {
                 1: 'Use of insecure Wi-Fi networks',
                 2: 'Key-logging',
                 3: 'Phishing attacks'
-            }
+            },
             9: {
                 1: 'Follow the link and reset your password',
                 2: 'Ignore the email and delete it',
                 3: 'Reset your password manually'
-            }
+            },
             10: {
                 1: 'Try your best to get rid of it before anyone finds out',
                 2: 'Pay the ransom. You need your files back!',
                 3: 'Send an email to the IT guy in the office.'
-            }
+            },
         },
         correctAnswers: {
             1: '2',
