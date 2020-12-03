@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Question from '../Questions/Question';
 import Answer from '../Answer/Answer';
 import back from '../../assets/back.png'
+import { Link } from 'react-router-dom';
 import './QuizMain.css';
 
 export default class Quiz extends Component {
@@ -119,13 +120,14 @@ export default class Quiz extends Component {
     render(){
         let { quiestions, answers, correctAnswer, clickedAnswer, step, score } = this.state;
         return(
+            
+            <div className="Content">
              <div className="newbtn">
                     <Link to="/"
                         className="norkochak">
                         <img src={back} alt="backicon"/>
                         </Link>
                 </div>
-            <div className="Content">
                 {step <= Object.keys(quiestions).length ? 
                     (<>
                         <Question
