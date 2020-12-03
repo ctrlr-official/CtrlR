@@ -16,14 +16,14 @@ export default class Quiz extends Component {
             6: 'Turning off the GPS function of your smartphone prevents any tracking of your phone’s location.',
             7: 'If a public Wi-Fi network (such as in an airport or café) requires a password to access, is it generally safe to use that network for sensitive activities such as online banking?',
             8: 'What kind of cybersecurity risks can be minimized by using a Virtual Private Network (VPN)?',
-            9: 'Working at your desk, you have received an email from Microsoft explaining that your password it out of date, and you must set a new one.T he link within the email will guide you through it.Your next step is?',
-            10: 'Your computer has just been infected with Ransomware and the hacker is demanding $1,000 before releasing it. What do you do?'
+            9: 'Working at your desk, you have received an email from Microsoft explaining that your password it out of date, and you must set a new one.The link within the email will guide you through it.Your next step is?',
+            10: 'Your computer has just been infected with Ransomware and the hacker is demanding $1,000 before releasing it.What do you do?'
         },
         answers: {
             1: {
-                1: 'When it's opened, it causes the computer to freeze',
-                2: 'When it's opened, it copies the user's data and sends it to a private server',
-                3: 'When it's opened, it puts copies of itself onto the user's hard drive.'
+                1: 'When it is opened, it causes the computer to freeze',
+                2: 'When it is opened, it copies the user's data and sends it to a private server',
+                3: 'When it is opened, it puts copies of itself onto the user's hard drive.'
             },
             2: {
                 1: 'That the site has special high definition',
