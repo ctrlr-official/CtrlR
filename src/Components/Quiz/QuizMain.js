@@ -22,8 +22,8 @@ export default class Quiz extends Component {
         answers: {
             1: {
                 1: 'When it is opened, it causes the computer to freeze',
-                2: 'When it is opened, it copies the user's data and sends it to a private server',
-                3: 'When it is opened, it puts copies of itself onto the user's hard drive.'
+                2: 'When it is opened, it copies the the data of user and sends it to a private server',
+                3: 'When it is opened, it puts copies of itself onto thehard drime of user.'
             },
             2: {
                 1: 'That the site has special high definition',
