@@ -11,7 +11,7 @@ const CyberCrime = () => {
             <div className="newbtn">
                     <Link to="/"
                         className="norkochak">
-                        &#8592
+                        &#8592;
                         </Link>
                 </div>
             <div className="firstvideo">
