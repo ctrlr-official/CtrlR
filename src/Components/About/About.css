@@ -7,12 +7,12 @@
 .anun {
     display: flex;
     justify-content: center;
-    margin-top:20px;
 }
 .anun p{
     font-size: 40px;
     color:white;
     line-height: 20px;
+    margin-top:20px;
 }
 /* .norkochak{
     text-decoration: none;
