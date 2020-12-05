@@ -11,12 +11,12 @@
 .anun p{
     font-size: 40px;
     color:white;
-    line-height: 20px;
+    line-height: 30px;
     margin-top:20px;
 }
 @media all and (max-width:550px){
     .anun p{
-        margin-left:65px;
+        margin-left:60px;
     }
 }
 .boxik{
