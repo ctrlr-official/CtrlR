@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
 .About{
     width:100%;
     height:1fr;
@@ -13,8 +12,7 @@
 .anun p{
     font-size: 40px;
     color:white;
-    font-family: 'Josefin Sans', sans-serif;
-    line-height: 20px;
+    line-height: 10px;
 }
 /* .norkochak{
     text-decoration: none;
@@ -65,7 +63,6 @@
 .teamname p{
     font-size: 60px;
     color:white;
-    font-family: 'Josefin Sans', sans-serif;
     line-height: 30px;
     margin-top:9.2%;
 }
