@@ -59,3 +59,13 @@
         grid-row: unset;
     }
 }
+@media all and (max-width:800px){
+    .warningner{
+        font-size:30px;
+    }
+}
+@media all and (max-width:550px){
+    .warningner{
+        font-size:25px;
+    }
+}
