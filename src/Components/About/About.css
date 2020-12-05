@@ -14,11 +14,11 @@
     line-height: 20px;
     margin-top:20px;
 }
-/* .norkochak{
-    text-decoration: none;
-    color:white;
-    font-size: 30px;
-} */
+@media all and (max-width:550px){
+    .anun p{
+        margin-left:65px;
+    }
+}
 .boxik{
     position: relative;
     display: grid;
