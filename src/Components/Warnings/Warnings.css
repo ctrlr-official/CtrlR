@@ -67,5 +67,6 @@
 @media all and (max-width:550px){
     .warningner{
         font-size:25px;
+        margin-left:50px;
     }
 }
