@@ -62,11 +62,12 @@
 @media all and (max-width:800px){
     .warningner{
         font-size:30px;
+        margin-left:85px;
     }
 }
 @media all and (max-width:550px){
     .warningner{
         font-size:25px;
-        margin-left:50px;
+        margin-left:55px;
     }
 }
