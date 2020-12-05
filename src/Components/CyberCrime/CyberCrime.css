@@ -2,6 +2,9 @@
     position:absolute;
     left:5px;
     top:5px;
+} 
+.newbtn img{
+    width:40px;
 }
 @keyframes change{
     0%{
