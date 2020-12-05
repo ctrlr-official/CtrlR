@@ -26,7 +26,7 @@ const Warnings = () => {
                         <img src={back} alt="backic"/>
                         </Link>
                 </div>
-            <div className="warningner">Here are some warnings that will help you</div>
+            <div className="warningner">How to protect yourself against cybercrime</div>
             <div class="container">
             <div class="firstgrid box" >
                 <img src={first} alt="keyboard"/>
