@@ -1,7 +1,7 @@
 import React from 'react';
 import './CyberCrime.css'
 import cat from '../../assets/Asset1.png'
-// import back from '../../assets/back.png'
+import back from '../../assets/back.png'
 import { Link } from 'react-router-dom';
 
 const CyberCrime = () => {
@@ -11,7 +11,7 @@ const CyberCrime = () => {
             <div className="newbtn">
                     <Link to="/"
                         className="norkochak">
-                        &#8592;
+                       <img src={back} alt="BackButton"/>
                         </Link>
                 </div>
             <div className="firstvideo">
