@@ -5,13 +5,14 @@
 }
 .Answers li{
     padding: 10px;
-    border-left: 4px solid #FF3B3B;
-    background-color: #bbb;
+    border-left: 4px solid #43d3f0;
+    background-color: rgba(3, 194, 252,0.7);
     margin: 0 0 5px;
+    width:75vw;
 }
 .Answers li:hover{
     cursor: pointer;
-    background-color: #a2a2a2;
+    background-color: rgb(3, 194, 252);
 }
 .Answers .correct,
 .Answers .correct:hover {
