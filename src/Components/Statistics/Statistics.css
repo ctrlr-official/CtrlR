@@ -10,6 +10,11 @@
     bottom:50%;
     margin-left:77px;
 }
+@media all and (max-width:500px){
+    .newbtn img{
+        width: 50px;
+    }
+} 
 .p{
     color:white;
 }
