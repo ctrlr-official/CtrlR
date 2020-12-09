@@ -3,7 +3,7 @@ import './Quizik.css';
 import QuizMain from './QuizMain/QuizMain'
 const Quizik = () => {
     return (
-<div className='Home'>
+<div className='Quizik'>
     <QuizMain />
         </div>
     )
