@@ -1,0 +1,226 @@
+.App{
+    
+    background-size:auto;
+    width: 100%;
+    height: 100%;
+    margin:auto;
+    background-image: url(3.jpg);
+    background-repeat: none;
+    display:flex;
+    flex-wrap: wrap;
+
+   
+}
+
+
+.firstimage {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-top: 40px;
+} 
+
+.firstimage img {
+  width: 300px;
+  height: 300px;
+}
+
+
+.secondimage {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-top: 40px;
+    
+}
+
+.secondimage img{
+  width: 300px;
+  height: 300px;
+}
+
+.thirdimage  {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-top: 40px;
+    
+}
+
+.thirdimage img{
+  width: 300px;
+  height: 300px;
+}
+/* 
+.fourthimage  {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-top: 60px;
+    
+}
+
+.fourthimage img{
+  width: 250px;
+  height: 250px;
+} */
+.btn{
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    background:none;
+    margin-left: 15%;
+}
+.firstimage .btn:hover {
+    color: rgb(0, 0, 133);
+    background:none;
+  }
+.btn1{
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    background:none;
+    margin-left: 15%;
+}
+.secondimage .btn1:hover {
+    color: rgb(0, 0, 133);
+    background:none;
+  }
+  .btn2{
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    background:none;
+    margin-left: 15%;
+}
+ .thirdimage .btn2:hover {
+    color: rgb(0, 0, 133);
+    background:none;
+  }
+  /*
+  .btn3{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    background:none;
+    margin-left: 15%;
+} */
+.fourthimage .btn3:hover {
+    color: rgb(0, 0, 133);
+    background:none;
+  }
+  .btn4{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 14px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    background:none;
+    margin-left: 15%;
+}
+
+.witchbottle .btn4:hover {
+    color: rgb(0, 0, 133);
+    background:none;
+  }
+.witchbottle {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    left: 500px;
+}
+.witchbottle img{
+    width: 75%;
+    height: 100%;
+}
+
+.App ul { 
+    list-style-type: none;  
+    
+
+}
+.App > ul{
+    display: flex;
+}
+
+.App ul li a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+}
+.App ul li a:hover{
+    font-size:30px;
+    color:rgb(2, 2, 133);
+}
+.App ul li > ul {
+    position: absolute;
+    border: 1px solid rgb(224, 43, 224);
+    background-color:rgb(233, 31, 233);
+    border-top: 0px solid;
+    display: none;
+    
+  }
+  .App ul li:hover > ul {
+    display: block;
+  }
+   
