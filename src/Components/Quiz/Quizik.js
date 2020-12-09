@@ -1,7 +1,7 @@
 import React from 'react';
-import './Home.css';
+import './Quizik.css';
 import QuizMain from './QuizMain/QuizMain'
-const Home = () => {
+const Quizik = () => {
     return (
 <div className='Home'>
     <QuizMain />
@@ -9,4 +9,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Quizik
