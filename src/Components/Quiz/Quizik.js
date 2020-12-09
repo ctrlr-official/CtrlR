@@ -1,10 +1,10 @@
 import React from 'react';
 import './Home.css';
-import Auth from './Auth/Auth'
+import QuizMain from './QuizMain/QuizMain'
 const Home = () => {
     return (
 <div className='Home'>
-    <Auth />
+    <QuizMain />
         </div>
     )
 }
