@@ -5,7 +5,7 @@ import Contact from './Components/Contact/Contact'
 import CyberCrime from './Components/CyberCrime/CyberCrime'
 import Statistics from './Components/Statistics/Statistics'
 import Warnings from './Components/Warnings/Warnings'
-import Quiz from './Components/Quiz/QuizMain';
+import Quiz from './Components/Quiz//NewProject/QuizMain';
 import { Route, Switch } from 'react-router-dom'
 import './App.css';
 
