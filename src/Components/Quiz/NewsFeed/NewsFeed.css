@@ -1,0 +1,42 @@
+
+.NFW {
+    width: 60%;
+    height: 100%;
+}
+
+.NewsFeed {
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/originals/93/6b/40/936b409f8aa9eb178c611bec96003f68.gif');
+    background-repeat: no-repeat;
+    transition: 3s;
+    margin-left: 0 !important;
+    position: fixed;
+    top: 0;
+    left: 40%;
+   
+  }
+  .transformed {
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+    background-image: url('https://i.pinimg.com/originals/93/6b/40/936b409f8aa9eb178c611bec96003f68.gif');
+    background-repeat: no-repeat;
+    transition: 3s;
+    margin-left: -50% !important;
+    position: fixed;
+    top: 0;
+    left: 40%;
+  }
+    .underNewsFeed{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            top: 0;
+            left: 0;
+            background-image: url('https://66.media.tumblr.com/a4b4625a024d38b013a35577f763405d/tumblr_pbhgwtlKjw1vl8g4do2_r2_400.gif');
+            background-size: cover;
+    }   
+
+
