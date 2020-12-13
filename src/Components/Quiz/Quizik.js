@@ -8,7 +8,7 @@ const Quizik = () => {
     return (
 <div className='Quizik'>
        <QuizMain/>
-
+</div>
     )
 }
 
