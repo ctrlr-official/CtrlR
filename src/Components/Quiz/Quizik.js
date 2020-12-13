@@ -1,8 +1,7 @@
 import React from 'react';
 import './Quizik.css';
 import QuizMain from './Newproject/QuizMain';
-// import NewsFeed from './NewsFeed/NewsFeed';
-import { Link } from 'react-router-dom';
+
 const Quizik = () => {
    
     return (
