@@ -7,7 +7,7 @@ const NewsFeed = () => {
 
   return (
     <div className='NFW'>
-      <Link to='/cards'>
+      <Link to='/quiz'>
         <div className='underNewsFeed' />
       </Link>
       <div
