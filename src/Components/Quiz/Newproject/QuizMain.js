@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Question from '../../Questions/Question';
 import Answer from '../../Answer/Answer';
-import back from '../../assets/back.png'
+import back from '../../../assets/back.png'
 import { Link } from 'react-router-dom';
 import './QuizMain.css';
 
