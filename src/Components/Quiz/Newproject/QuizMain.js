@@ -100,12 +100,7 @@ export default class Quiz extends Component {
                 correctAnswer: correctAnswers[step],
                 clickedAnswer: answer
             
-           });
-            if (answer !== correctAnswer[step])
-                {
-                correctAnswer: correctAnswers[step],
-            };
-        };
+           })};
             else{
             this.setState({
                 correctAnswer: 0,
