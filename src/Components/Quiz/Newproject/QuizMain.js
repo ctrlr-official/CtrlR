@@ -104,8 +104,9 @@ export default class Quiz extends Component {
             if (answer !== correctAnswer[step])
                 {
                 correctAnswer: correctAnswers[step],
-            }
-        }else{
+            };
+        };
+            else{
             this.setState({
                 correctAnswer: 0,
                 clickedAnswer: answer
