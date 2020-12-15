@@ -16,6 +16,8 @@ const Contact = () => {
                         <img src = {back} alt="back"/>
                         </Link>
                 </div>
+  
+            <div className="newpageik">Have some questions?<br/> Need a help?<br/> Contact Us</div>
         <div className="iconchiki">
            <div className="insta">
                <button onClick={() => window.open( 'http://www.google.com')}>
@@ -28,7 +30,6 @@ const Contact = () => {
                </button>
            </div>
         </div>
-            <div className="newpageik">Have some questions?<br/> Need a help?<br/> Contact Us</div>
             <div className="formik">
                 <form action="mailto:mary.grigoryan.2019@inbox.ru" method="post" enctype="text/plain">
                 <br/>
