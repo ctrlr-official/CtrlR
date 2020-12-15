@@ -2,7 +2,9 @@ import React from 'react';
 import './Contact.css'
 import logo from '../../assets/ctrlr.jpg'
 import { Link } from 'react-router-dom';
-import back from '../../assets/back.png'
+import back from '../../assets/back.png';
+import facebook from '../../assets/fbicon.png';
+import instagram from '../../assets/insticon.png'
 
 
 const Contact = () => {
@@ -16,14 +18,14 @@ const Contact = () => {
                 </div>
         <div className="iconchiki">
            <div className="insta">
-               <Link className="instalink>
-                 <img src = {back} alt="insta"/>
-               </Link>
+               <button onClick={() => window.open( 'http://www.google.com')}>
+                 <img src = {instagram} alt="insta"/>
+               </button>
            </div>
            <div className="fb">
-               <Link className="fblink>
-                 <img src = {back} alt="fb"/>
-               </Link>
+               <button onClick={() => window.open( 'http://www.youtube.com')}>
+                 <img src = {facebook} alt="fb"/>
+               </button>
            </div>
         </div>
             <div className="newpageik">Have some questions?<br/> Need a help?<br/> Contact Us</div>
