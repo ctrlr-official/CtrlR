@@ -13,18 +13,17 @@ html, body{
 }
 .iconchiki{
     display:flex;
-    justify-content:start;
     flex-direction:column;
     position:relative;
     top:50vh;
     left:3vw;
 }
 .insta img{
-    width:40%;
+    width:40px;
 }
 .fb img{
     margin-top:8px;
-    width:40%;
+    width:40px;
 }
 
 @keyframes change{
