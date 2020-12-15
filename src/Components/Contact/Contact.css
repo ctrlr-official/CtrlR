@@ -14,15 +14,15 @@ html, body{
 .iconchiki{
     display:flex;
     flex-direction:column;
-    position:relative;
+    position:absolute;
     top:50vh;
     left:3vw;
 }
-.insta button:focus{
-    outline:none;
+.insta button{
+    border:none;
 }
-.fb button:focus{
-    outline:none;
+.fb button{
+    border:none;
 }
 .insta img{
     width:40px;
