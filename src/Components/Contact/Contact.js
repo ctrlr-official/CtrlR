@@ -18,18 +18,6 @@ const Contact = () => {
                 </div>
   
             <div className="newpageik">Have some questions?<br/> Need a help?<br/> Contact Us</div>
-        <div className="iconchiki">
-           <div className="insta">
-               <button onClick={() => window.open( 'http://www.google.com')}>
-                 <img src = {instagram} alt="insta"/>
-               </button>
-           </div>
-           <div className="fb">
-               <button onClick={() => window.open( 'http://www.youtube.com')}>
-                 <img src = {facebook} alt="fb"/>
-               </button>
-           </div>
-        </div>
             <div className="formik">
                 <form action="mailto:mary.grigoryan.2019@inbox.ru" method="post" enctype="text/plain">
                 <br/>
@@ -44,6 +32,18 @@ const Contact = () => {
                 </form>
             </div>
             
+         <div className="iconchiki">
+           <div className="insta">
+               <button onClick={() => window.open( 'http://www.google.com')}>
+                 <img src = {instagram} alt="insta"/>
+               </button>
+           </div>
+           <div className="fb">
+               <button onClick={() => window.open( 'http://www.youtube.com')}>
+                 <img src = {facebook} alt="fb"/>
+               </button>
+           </div>
+        </div>
             </div>
     )
 }
