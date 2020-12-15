@@ -21,10 +21,12 @@ html, body{
 .insta button{
     border:none;
     background:none;
+    cursor:pointer;
 }
 .fb button{
     border:none;
     background:none;
+    cursor:pointer;
 }
 .insta img{
     width:40px;
