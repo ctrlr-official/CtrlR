@@ -15,12 +15,16 @@ html, body{
     display:flex;
     justify-content:start;
     flex-direction:column;
+    position:relative;
+    top:50vh;
+    left:3vw;
 }
 .insta img{
-    width:50%;
+    width:40%;
 }
 .fb img{
-    width:50%;
+    margin-top:8px;
+    width:40%;
 }
 
 @keyframes change{
