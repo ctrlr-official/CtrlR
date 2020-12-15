@@ -18,6 +18,12 @@ html, body{
     top:50vh;
     left:3vw;
 }
+.insta button:focus{
+    outline:none;
+}
+.fb button:focus{
+    outline:none;
+}
 .insta img{
     width:40px;
 }
