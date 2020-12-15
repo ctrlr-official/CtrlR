@@ -151,10 +151,10 @@ export default class Quiz extends Component {
                         onClick={() => this.nextStep(step)}>Next</button>
                     </>) : (
                         <div className="finalPage">
-//                              if ({score} <= 5) {
-//                                <p>Your score is: {score} of {Object.keys(quiestions).length}</p>
-//                                <p>You need to learn more </p>
-//     }
+                             if ({score} <= 5) {
+                               <p>Your score is: {score} of {Object.keys(quiestions).length}</p>
+                               <p>You need to learn more </p>
+    }
                             <h1>You have completed the quiz!</h1>
                             <p>Your score is: {score} of {Object.keys(quiestions).length}</p>
                             <p>Thank you!</p>
