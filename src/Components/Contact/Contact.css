@@ -11,6 +11,17 @@ html, body{
     animation: change 5s ease-in-out infinite;
     background-size: 400% 400%; */
 }
+.iconchiki{
+    display:flex;
+    justify-content:start;
+    flex-direction:column;
+}
+.insta img{
+    width:50%;
+}
+.fb img{
+    width:50%;
+}
 
 @keyframes change{
     0%{
