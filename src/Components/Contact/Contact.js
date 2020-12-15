@@ -34,12 +34,12 @@ const Contact = () => {
             
          <div className="iconchiki">
            <div className="insta">
-               <button onClick={() => window.open( 'http://www.google.com')}>
+               <button onClick={() => window.open( 'https://www.instagram.com/official_ctrlr/')}>
                  <img src = {instagram} alt="insta"/>
                </button>
            </div>
            <div className="fb">
-               <button onClick={() => window.open( 'http://www.youtube.com')}>
+               <button onClick={() => window.open( 'https://www.facebook.com/CTRL-R-104838324683087')}>
                  <img src = {facebook} alt="fb"/>
                </button>
            </div>
