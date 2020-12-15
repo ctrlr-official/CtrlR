@@ -14,6 +14,18 @@ const Contact = () => {
                         <img src = {back} alt="back"/>
                         </Link>
                 </div>
+        <div className="iconchiki">
+           <div className="insta">
+               <Link className="instalink>
+                 <img src = {back} alt="insta"/>
+               </Link>
+           </div>
+           <div className="fb">
+               <Link className="fblink>
+                 <img src = {back} alt="fb"/>
+               </Link>
+           </div>
+        </div>
             <div className="newpageik">Have some questions?<br/> Need a help?<br/> Contact Us</div>
             <div className="formik">
                 <form action="mailto:mary.grigoryan.2019@inbox.ru" method="post" enctype="text/plain">
