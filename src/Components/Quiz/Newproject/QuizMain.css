@@ -27,7 +27,10 @@ margin-left: 10%;
     font-size: 25px;
     font-family: Arial,sans-serif;
     font-weight: bold;
-    color: #008416;
+    color: #051726;
     text-transform: none;
     text-shadow: none;
+}
+.finalPage p{
+    font-size:23px;
 }
