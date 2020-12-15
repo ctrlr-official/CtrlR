@@ -151,9 +151,9 @@ export default class Quiz extends Component {
                         onClick={() => this.nextStep(step)}>Next</button>
                     </>) : (
                         <div className="finalPage">
-                            <h1>You have completed the quiz!</h1>
+                            <h1>Thank you for completing the quiz! </h1>
                             <p>Your score is: {score} of {Object.keys(quiestions).length}</p>
-                            <p>Thank you!</p>
+                            <p>Check out the other sections of the website for being more informed about CYBERCRIME.</p>
                         </div>
                     )
                 }
