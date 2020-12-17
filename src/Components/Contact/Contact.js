@@ -19,7 +19,7 @@ const Contact = () => {
   
             <div className="newpageik">Have some questions?<br/> Need a help?<br/> Contact Us</div>
             <div className="formik">
-                <form action="mailto:mary.grigoryan.2019@inbox.ru" method="post" enctype="text/plain">
+                <form action="mailto:ctrlr.official@gmail.com" method="post" enctype="text/plain">
                 <br/>
                 <input type="text" name="name" placeholder="Name"/><br/>
                  <br/>
